@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-minumminum-dev-153555-authRole",
+      "UnauthRoleArn": "arn:aws:iam::103912182895:role/amplify-minumminum-dev-153555-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::103912182895:role/amplify-minumminum-dev-153555-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-minumminum-dev-153555-deployment",
+      "UnauthRoleName": "amplify-minumminum-dev-153555-unauthRole",
+      "StackName": "amplify-minumminum-dev-153555",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:103912182895:stack/amplify-minumminum-dev-153555/3192de00-e2ec-11eb-8636-0ad4596127fc",
+      "AmplifyAppId": "dflf2ccefkj3t"
+    }
+  }
+}
