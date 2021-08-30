@@ -1,6 +1,5 @@
 import  "./App.css";
 import React, { useEffect, useState } from "react";
-import { loadingBar } from "aws-amplify";
 
 function App() {
   
@@ -45,7 +44,7 @@ function App() {
        if (error) return "Error!"; 
 
        return (
-        <div>
+        <div className="App">
           <h1>Top 5 ways to fetch data in React - 1</h1>
           <pre>{JSON.stringify(data, null, 2)}</pre>
         </div>
