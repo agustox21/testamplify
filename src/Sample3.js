@@ -2,7 +2,7 @@ import  "./App.css";
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
-function App() {
+function Sample3() {
   
    const [data, setData] = useState(null); 
    const [loading, setLoading] = useState(true);
@@ -41,4 +41,4 @@ function App() {
 
 }
 
-export default App;
+export default Sample3;

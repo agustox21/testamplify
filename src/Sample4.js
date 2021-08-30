@@ -1,14 +1,11 @@
 import  "./App.css";
 import React, { useEffect, useState } from "react";
-import{ useQuery, userQuery } from 'react-query';
+import useFetch from "react-fetch-hook";
+import Sample3 from "./Sample3";
 
-function App() {
+function Sample4() {
    
-   const  { isLoading, error , data } = useQuery("users", () =>
-     fetch("https://jsonplaceholder.typicode.com/users").then ((res)=>
-     res.json() 
-     )
-   );
+   const  { isLoading, error , data } = useFetch("https://jsonplaceholder.typicode.com/users"); 
           
    if (isLoading) return "Loading...";
    if (error) return "Error!"; 
@@ -22,4 +19,4 @@ function App() {
 
 }
 
-export default App;
+export default Sample4;

@@ -2,7 +2,7 @@ import  "./App.css";
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
-function App() {
+function Sample2() {
   
    const [data, setData] = useState(null); 
    const [loading, setLoading] = useState(true);
@@ -28,11 +28,11 @@ function App() {
 
        return (
         <div className="App">
-          <h1>Top 5 ways to fetch data in React - 2</h1>
+          <h1>Top 5 ways to fetch data in React - Sample 2</h1>
           <pre>{JSON.stringify(data, null, 2)}</pre>
         </div>
       );
 
 }
 
-export default App;
+export default Sample2;
